@@ -13,7 +13,7 @@ public class DbManager {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost/pos";
-            String user = "ben", pass = "loveyouchange";
+            String user = "ben", pass = "loveyoukkchange";
 
             connection = DriverManager.getConnection(url, user, pass);
         } catch (ClassNotFoundException | SQLException e) {
